@@ -1,0 +1,25 @@
+* {
+  background-color: #1f2632;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #323a49;
+
+  width: 33%;
+  height: 50vh;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.App-header div {
+  background-color: #323a49;
+}
