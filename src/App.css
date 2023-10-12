@@ -1,0 +1,105 @@
+* {
+  border: none;
+  font-family: "Manrope", sans-serif;
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  background-color: #1f2632;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App-header {
+  width: 33%;
+  height: 450px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: #323a49;
+}
+
+.App-header div:first-child {
+  width: 100%;
+  height: 75px;
+  font-size: 12px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #52ffa8;
+}
+
+.Random_Advice {
+  width: 80%;
+  height: calc(450px - 150px);
+  margin: 0 auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #cee3e9;
+}
+
+.Under_Bar {
+  border: 1px solid #4e5d73;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.Stop_Btn {
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+
+  margin: 0 auto;
+
+  position: relative;
+  bottom: 15px;
+
+  background-color: #323a49;
+  color: #cee3e9;
+
+  border-radius: 30px;
+}
+
+.Stop_Btn:hover {
+  color: #323a49;
+  background-color: #cee3e9;
+}
+
+.Run_Btn {
+  width: 46px;
+  height: 46px;
+  font-size: 22px;
+
+  margin: 0 auto;
+
+  position: relative;
+  top: 25px;
+
+  border-radius: 30px;
+
+  background-color: #52ffa8;
+}
+.Run_Btn:hover {
+  box-shadow: #52ffa8 0px 2px 16px 0px, #52ffa8 0px 2px 16px 0px;
+}
+
+.Stop_Btn,
+.Run_Btn {
+  cursor: pointer;
+}
+
+@media (max-height: 550px) {
+  .App-header {
+    height: 275px;
+  }
+}
