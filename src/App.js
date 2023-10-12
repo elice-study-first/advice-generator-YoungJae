@@ -18,7 +18,7 @@ function App() {
     if (rolling) {
       const interval = setInterval(() => {
         getData();
-      }, 500);
+      }, 0);
       return () => {
         clearInterval(interval);
       };
